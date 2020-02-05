@@ -17,6 +17,31 @@
   </head>
   <body>
     <div id="root"></div>
-    
+    <h1>Movies</h1>
+    <div id="moviesList">
+
+    </div>
+
+    <form id="postMovie">
+      <fieldset>
+          <legend>Post a movie</legend>
+          <div>
+            <label for="title">Title:</label>
+            <input type="text" id="titlePost" name="title">
+          </div>
+          <div>
+            <label for="year">Year:</label>
+            <input type="text" id="yearPost" name="year">
+          </div>
+          <div>
+            <label for="rating">Rating:</label>
+            <input type="text" id="ratingPost" name="rating">
+        </div>
+          <button type="submit">Post</button>
+      </fieldset>
+    </form>
   </body>
+  
+  <!-- <script src="./js/index.js"></script> -->
+  <!-- No funciona porque tiene que ser en React -->
 </html>
